@@ -108,32 +108,28 @@ a {
 .thumbnails {
 
     display: flex;
-    height: calc(100vh - 150px);
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     margin-inline: 2rem;
     width: 100vh;
-
     margin: auto;
-
 }
 
 main {
     display: flex;
-    height: calc(100vh - 150px);
+    height: 56vh;
+    width: 70vw;
     align-items: center;
     justify-content: space-between;
     margin-inline: 2rem;
+    margin: auto;
+    padding-top: 6rem;
 }
 
-.thumbnails {
-    display: flex;
-    flex-direction: column;
-}
 
 .main-thumbnail {
     border-radius: 10px;
-    width: 1100px;
+    width: 26rem;
     cursor: pointer;
 }
 
